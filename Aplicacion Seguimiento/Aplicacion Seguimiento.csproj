@@ -91,11 +91,11 @@
     <Compile Include="Forms\LocateBatchForm.Designer.cs">
       <DependentUpon>LocateBatchForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\LocateBatchWithProductID.cs">
+    <Compile Include="Forms\LocateBatchWithProductIDForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\LocateBatchWithProductID.Designer.cs">
-      <DependentUpon>LocateBatchWithProductID.cs</DependentUpon>
+    <Compile Include="Forms\LocateBatchWithProductIDForm.Designer.cs">
+      <DependentUpon>LocateBatchWithProductIDForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\CustomerSearchByProductID.cs" />
     <Compile Include="Interfaces\CustomerSearchByBatchIDInterface.cs" />
@@ -119,8 +119,8 @@
     <EmbeddedResource Include="Forms\LocateBatchForm.resx">
       <DependentUpon>LocateBatchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\LocateBatchWithProductID.resx">
-      <DependentUpon>LocateBatchWithProductID.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\LocateBatchWithProductIDForm.resx">
+      <DependentUpon>LocateBatchWithProductIDForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Languages\Resource_language_english.resx">
       <Generator>ResXFileCodeGenerator</Generator>

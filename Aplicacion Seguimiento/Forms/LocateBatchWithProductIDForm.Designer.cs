@@ -1,6 +1,6 @@
 ﻿namespace Aplicacion_Seguimiento.Forms
 {
-    partial class LocateBatchWithProductID
+    partial class LocateBatchWithProductIDForm
     {
         /// <summary>
         /// Required designer variable.

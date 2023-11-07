@@ -72,10 +72,17 @@ namespace Aplicacion_Seguimiento
             newForm.BringToFront();
             newForm.Show();
         }
+
         private void showLocateBatchForm()
         {
             LocateBatchForm formLocateBatchCtl = new LocateBatchForm();
             showForm(formLocateBatchCtl);
+        }
+
+        private void showLocateProductForm()
+        {
+            LocateBatchWithProductIDForm formLocateBatchWithProductIDCtl = new LocateBatchWithProductIDForm();
+            showForm(formLocateBatchWithProductIDCtl);
         }
 
         private void buttonTrackBatch_Click(object sender, EventArgs e)
@@ -92,6 +99,7 @@ namespace Aplicacion_Seguimiento
         {
             buttonTrackBatch.Text = Messages.LocateBatch;
             buttonMyOrders.Text = Messages.MyOrders;
+            buttonLocateProduct.Text = Messages.LocateProduct;
         }
 
         private void buttonEnglishLanguage_Click(object sender, EventArgs e)
@@ -106,6 +114,11 @@ namespace Aplicacion_Seguimiento
             LanguageManager.Initialize(typeof(Languages.Resource_language_spanish));
             updateUI();
             LanguageChanged?.Invoke();
+        }
+
+        private void buttonLocateProduct_Click(object sender, EventArgs e)
+        {
+            showLocateProductForm();
         }
     }
 }

@@ -286,6 +286,15 @@ namespace Aplicacion_Seguimiento.Languages {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Locate Product.
+        /// </summary>
+        internal static string LocateProduct {
+            get {
+                return ResourceManager.GetString("LocateProduct", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Lot found.
         /// </summary>
         internal static string LotFound {

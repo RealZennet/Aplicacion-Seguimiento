@@ -14,12 +14,12 @@ using System.Windows.Forms;
 
 namespace Aplicacion_Seguimiento.Forms
 {
-    public partial class LocateBatchWithProductID : Form
+    public partial class LocateBatchWithProductIDForm : Form
     {
         public event Action LanguageChanged;
         private ApiRequestGetBatchByProductID apiRequests;
 
-        public LocateBatchWithProductID()
+        public LocateBatchWithProductIDForm()
         {
             InitializeComponent();
             Form1 mainForm = Application.OpenForms.OfType<Form1>().FirstOrDefault();

@@ -312,4 +312,7 @@
   <data name="MyOrders" xml:space="preserve">
     <value>My Orders</value>
   </data>
+  <data name="LocateProduct" xml:space="preserve">
+    <value>Locate Product</value>
+  </data>
 </root>

@@ -315,4 +315,7 @@
   <data name="OrderNotFound" xml:space="preserve">
     <value>Pedido No Encontrado</value>
   </data>
+  <data name="LocateProduct" xml:space="preserve">
+    <value>Localizar Producto</value>
+  </data>
 </root>
