@@ -277,6 +277,15 @@ namespace Aplicacion_Seguimiento.Languages {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Localizar Lote.
+        /// </summary>
+        internal static string LocateBatch {
+            get {
+                return ResourceManager.GetString("LocateBatch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Lote encontrado.
         /// </summary>
         internal static string LotFound {
@@ -358,6 +367,15 @@ namespace Aplicacion_Seguimiento.Languages {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Mis Pedidos.
+        /// </summary>
+        internal static string MyOrders {
+            get {
+                return ResourceManager.GetString("MyOrders", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Nombre.
         /// </summary>
         internal static string Name {
@@ -372,6 +390,24 @@ namespace Aplicacion_Seguimiento.Languages {
         internal static string Number {
             get {
                 return ResourceManager.GetString("Number", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Pedido Encontrado.
+        /// </summary>
+        internal static string OrderFound {
+            get {
+                return ResourceManager.GetString("OrderFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Pedido No Encontrado.
+        /// </summary>
+        internal static string OrderNotFound {
+            get {
+                return ResourceManager.GetString("OrderNotFound", resourceCulture);
             }
         }
         

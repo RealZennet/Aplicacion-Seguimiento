@@ -303,4 +303,16 @@
   <data name="Weight" xml:space="preserve">
     <value>Peso</value>
   </data>
+  <data name="LocateBatch" xml:space="preserve">
+    <value>Localizar Lote</value>
+  </data>
+  <data name="MyOrders" xml:space="preserve">
+    <value>Mis Pedidos</value>
+  </data>
+  <data name="OrderFound" xml:space="preserve">
+    <value>Pedido Encontrado</value>
+  </data>
+  <data name="OrderNotFound" xml:space="preserve">
+    <value>Pedido No Encontrado</value>
+  </data>
 </root>
