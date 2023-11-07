@@ -1,4 +1,5 @@
-﻿using Aplicacion_Seguimiento.Languages;
+﻿using Aplicacion_Seguimiento.Forms;
+using Aplicacion_Seguimiento.Languages;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -71,10 +72,15 @@ namespace Aplicacion_Seguimiento
             newForm.BringToFront();
             newForm.Show();
         }
+        private void showLocateBatchForm()
+        {
+            LocateBatchForm formLocateBatchCtl = new LocateBatchForm();
+            showForm(formLocateBatchCtl);
+        }
 
         private void buttonTrackBatch_Click(object sender, EventArgs e)
         {
-
+            showLocateBatchForm();
         }
 
         private void buttonMyOrders_Click(object sender, EventArgs e)
