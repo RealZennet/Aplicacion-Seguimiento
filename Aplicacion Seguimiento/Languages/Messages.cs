@@ -26,6 +26,7 @@ namespace Aplicacion_Seguimiento.Languages
         public static string Name => LanguageManager.GetString("Name");
         public static string OrderFound => LanguageManager.GetString("OrderFound");
         public static string OrderNotFound => LanguageManager.GetString("OrderNotFound");
-
+        public static string LocateBatch => LanguageManager.GetString("LocateBatch");
+        public static string MyOrders => LanguageManager.GetString("MyOrders");
     }
 }

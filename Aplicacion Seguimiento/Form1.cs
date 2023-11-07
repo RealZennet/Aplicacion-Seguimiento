@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Aplicacion_Seguimiento.Languages;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,10 +13,16 @@ namespace Aplicacion_Seguimiento
 {
     public partial class Form1 : Form
     {
+
+        public event Action LanguageChanged;
+
         public Form1()
         {
+            LanguageManager.Initialize(typeof(Languages.Resource_language_english));
+            LanguageManager.Initialize(typeof(Languages.Resource_language_spanish));
             InitializeComponent();
             customMenus();
+            updateUI();
         }
 
 
@@ -73,6 +80,26 @@ namespace Aplicacion_Seguimiento
         private void buttonMyOrders_Click(object sender, EventArgs e)
         {
             showMenus(panelMyOrders);
+        }
+
+        private void updateUI()
+        {
+            buttonTrackBatch.Text = Messages.LocateBatch;
+            buttonMyOrders.Text = Messages.MyOrders;
+        }
+
+        private void buttonEnglishLanguage_Click(object sender, EventArgs e)
+        {
+            LanguageManager.Initialize(typeof(Languages.Resource_language_english));
+            updateUI();
+            LanguageChanged?.Invoke();
+        }
+
+        private void buttonLanguageSpanish_Click(object sender, EventArgs e)
+        {
+            LanguageManager.Initialize(typeof(Languages.Resource_language_spanish));
+            updateUI();
+            LanguageChanged?.Invoke();
         }
     }
 }

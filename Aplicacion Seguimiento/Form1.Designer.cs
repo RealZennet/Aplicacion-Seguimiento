@@ -108,6 +108,7 @@
             this.buttonEnglishLanguage.Text = "English";
             this.buttonEnglishLanguage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonEnglishLanguage.UseVisualStyleBackColor = true;
+            this.buttonEnglishLanguage.Click += new System.EventHandler(this.buttonEnglishLanguage_Click);
             // 
             // buttonLanguageSpanish
             // 
@@ -123,6 +124,7 @@
             this.buttonLanguageSpanish.Text = "Spanish";
             this.buttonLanguageSpanish.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonLanguageSpanish.UseVisualStyleBackColor = true;
+            this.buttonLanguageSpanish.Click += new System.EventHandler(this.buttonLanguageSpanish_Click);
             // 
             // panelMyOrders
             // 
