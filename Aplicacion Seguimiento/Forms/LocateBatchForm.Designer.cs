@@ -28,11 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.buttonBackToMainMenu = new System.Windows.Forms.Button();
             this.buttonSearchByBatchID = new System.Windows.Forms.Button();
             this.dataGridViewSearchByBatchID = new System.Windows.Forms.DataGridView();
+            this.labelSearchByBatchID = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSearchByBatchID)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,7 +53,7 @@
             // 
             this.buttonSearchByBatchID.Location = new System.Drawing.Point(12, 383);
             this.buttonSearchByBatchID.Name = "buttonSearchByBatchID";
-            this.buttonSearchByBatchID.Size = new System.Drawing.Size(75, 23);
+            this.buttonSearchByBatchID.Size = new System.Drawing.Size(101, 23);
             this.buttonSearchByBatchID.TabIndex = 58;
             this.buttonSearchByBatchID.Text = "Buscar";
             this.buttonSearchByBatchID.UseVisualStyleBackColor = true;
@@ -62,23 +63,23 @@
             this.dataGridViewSearchByBatchID.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(47)))), ((int)(((byte)(68)))));
             this.dataGridViewSearchByBatchID.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridViewSearchByBatchID.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(84)))), ((int)(((byte)(112)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewSearchByBatchID.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(84)))), ((int)(((byte)(112)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewSearchByBatchID.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridViewSearchByBatchID.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(84)))), ((int)(((byte)(112)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewSearchByBatchID.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(84)))), ((int)(((byte)(112)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewSearchByBatchID.DefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridViewSearchByBatchID.EnableHeadersVisualStyles = false;
             this.dataGridViewSearchByBatchID.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(47)))), ((int)(((byte)(68)))));
             this.dataGridViewSearchByBatchID.Location = new System.Drawing.Point(12, 68);
@@ -86,12 +87,22 @@
             this.dataGridViewSearchByBatchID.Size = new System.Drawing.Size(359, 228);
             this.dataGridViewSearchByBatchID.TabIndex = 59;
             // 
+            // labelSearchByBatchID
+            // 
+            this.labelSearchByBatchID.AutoSize = true;
+            this.labelSearchByBatchID.Location = new System.Drawing.Point(12, 364);
+            this.labelSearchByBatchID.Name = "labelSearchByBatchID";
+            this.labelSearchByBatchID.Size = new System.Drawing.Size(101, 13);
+            this.labelSearchByBatchID.TabIndex = 60;
+            this.labelSearchByBatchID.Text = "Search By Batch ID";
+            // 
             // LocateBatchForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(47)))), ((int)(((byte)(68)))));
             this.ClientSize = new System.Drawing.Size(725, 442);
+            this.Controls.Add(this.labelSearchByBatchID);
             this.Controls.Add(this.dataGridViewSearchByBatchID);
             this.Controls.Add(this.buttonSearchByBatchID);
             this.Controls.Add(this.buttonBackToMainMenu);
@@ -100,6 +111,7 @@
             this.Text = "LocateBatchForm";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSearchByBatchID)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -108,5 +120,6 @@
         private System.Windows.Forms.Button buttonBackToMainMenu;
         private System.Windows.Forms.Button buttonSearchByBatchID;
         private System.Windows.Forms.DataGridView dataGridViewSearchByBatchID;
+        private System.Windows.Forms.Label labelSearchByBatchID;
     }
 }

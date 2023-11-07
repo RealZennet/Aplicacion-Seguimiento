@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aplicacion_Seguimiento.Interfaces
 {
-    public class CustomerSearchByBatchID
+    public class CustomerSearchByBatchIDInterface
     {
         public int BatchId { get; private set; }
         public string StreetDestination { get; private set; }

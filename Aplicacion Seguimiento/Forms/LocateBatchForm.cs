@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Aplicacion_Seguimiento.Languages;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,14 +29,10 @@ namespace Aplicacion_Seguimiento.Forms
 
         private void UpdateLanguage()
         {
-            buttonAdd.Text = LanguageManager.GetString("Add");
-            buttonDelete.Text = LanguageManager.GetString("Delete");
-            buttonRefresh.Text = LanguageManager.GetString("Refresh");
+            buttonSearchByBatchID.Text = LanguageManager.GetString("Search");
             buttonBackToMainMenu.Text = LanguageManager.GetString("Back");
 
-            labelTruckID.Text = LanguageManager.GetString("IDTruck");
-            labelEstimatedDate.Text = LanguageManager.GetString("EstimatedDate");
-            labelIDBatch.Text = LanguageManager.GetString("LotID");
+            labelSearchByBatchID.Text = LanguageManager.GetString("LotID");
 
         }
 
