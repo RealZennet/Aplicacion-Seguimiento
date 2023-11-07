@@ -94,9 +94,9 @@
             this.labelSearchByBatchID.AutoSize = true;
             this.labelSearchByBatchID.Location = new System.Drawing.Point(9, 326);
             this.labelSearchByBatchID.Name = "labelSearchByBatchID";
-            this.labelSearchByBatchID.Size = new System.Drawing.Size(101, 13);
+            this.labelSearchByBatchID.Size = new System.Drawing.Size(42, 13);
             this.labelSearchByBatchID.TabIndex = 60;
-            this.labelSearchByBatchID.Text = "Search By Batch ID";
+            this.labelSearchByBatchID.Text = "ID Lote";
             // 
             // textBoxBatchID
             // 

@@ -77,6 +77,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiRequests\ApiRequestGetBatchByProductID.cs" />
     <Compile Include="ApiRequests\ApiRequestGetBatchByID.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -90,6 +91,13 @@
     <Compile Include="Forms\LocateBatchForm.Designer.cs">
       <DependentUpon>LocateBatchForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\LocateBatchWithProductID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LocateBatchWithProductID.Designer.cs">
+      <DependentUpon>LocateBatchWithProductID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\CustomerSearchByProductID.cs" />
     <Compile Include="Interfaces\CustomerSearchByBatchIDInterface.cs" />
     <Compile Include="Languages\LanguageManager.cs" />
     <Compile Include="Languages\Messages.cs" />
@@ -110,6 +118,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\LocateBatchForm.resx">
       <DependentUpon>LocateBatchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LocateBatchWithProductID.resx">
+      <DependentUpon>LocateBatchWithProductID.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Languages\Resource_language_english.resx">
       <Generator>ResXFileCodeGenerator</Generator>
