@@ -90,7 +90,7 @@
     <Compile Include="Forms\LocateBatchForm.Designer.cs">
       <DependentUpon>LocateBatchForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Interfaces\CustomerSearchByBatchID.cs" />
+    <Compile Include="Interfaces\CustomerSearchByBatchIDInterface.cs" />
     <Compile Include="Languages\LanguageManager.cs" />
     <Compile Include="Languages\Messages.cs" />
     <Compile Include="Languages\Resource_language_english.Designer.cs">
