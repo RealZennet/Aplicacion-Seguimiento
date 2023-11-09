@@ -12,5 +12,7 @@ namespace Aplicacion_Seguimiento.Interfaces
         public string StreetDestination { get; set; }
         public string DoorNumber { get; set; }
         public DateTime ShippmentDate { get; set; }
+        public string BatchStatus { get; set; }
+        public string Position { get; set; }
     }
 }

@@ -56,6 +56,8 @@ namespace Aplicacion_Seguimiento.Forms
             rows["ID Lote"] = batchorder.BatchId;
             rows["Calle"] = batchorder.StreetDestination;
             rows["Numero Puerta"] = batchorder.DoorNumber;
+            rows["Estado"] = batchorder.BatchStatus;
+            rows["Posicion"] = batchorder.Position;
             rows["Fecha Envio"] = batchorder.ShippmentDate;
             table.Rows.Add(rows);
         }
@@ -79,6 +81,8 @@ namespace Aplicacion_Seguimiento.Forms
                         table.Columns.Add("ID Lote", typeof(int));
                         table.Columns.Add("Calle", typeof(string));
                         table.Columns.Add("Numero Puerta", typeof(string));
+                        table.Columns.Add("Estado", typeof(string));
+                        table.Columns.Add("Posicion", typeof(string));
                         table.Columns.Add("Fecha Envio", typeof(DateTime));
 
                         fillDataTable(table, batch);
