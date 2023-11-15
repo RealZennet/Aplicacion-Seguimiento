@@ -34,14 +34,14 @@
             this.settingsManagerPanel = new System.Windows.Forms.Panel();
             this.buttonEnglishLanguage = new System.Windows.Forms.Button();
             this.buttonLanguageSpanish = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelMyOrders = new System.Windows.Forms.Panel();
-            this.buttonTrackBatch = new System.Windows.Forms.Button();
             this.buttonLocateProduct = new System.Windows.Forms.Button();
+            this.buttonTrackBatch = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.leftPanelContainer.SuspendLayout();
             this.settingsManagerPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelMyOrders.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelFormsLoader
@@ -74,7 +74,7 @@
             this.buttonMyOrders.FlatAppearance.BorderSize = 0;
             this.buttonMyOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMyOrders.ForeColor = System.Drawing.Color.Gainsboro;
-            this.buttonMyOrders.Location = new System.Drawing.Point(0, 80);
+            this.buttonMyOrders.Location = new System.Drawing.Point(0, 100);
             this.buttonMyOrders.Name = "buttonMyOrders";
             this.buttonMyOrders.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.buttonMyOrders.Size = new System.Drawing.Size(250, 45);
@@ -127,41 +127,15 @@
             this.buttonLanguageSpanish.UseVisualStyleBackColor = true;
             this.buttonLanguageSpanish.Click += new System.EventHandler(this.buttonLanguageSpanish_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Image = global::Aplicacion_Seguimiento.Properties.Resources.ZENNETLOGO;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(250, 80);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
             // panelMyOrders
             // 
             this.panelMyOrders.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(85)))), ((int)(((byte)(96)))));
             this.panelMyOrders.Controls.Add(this.buttonLocateProduct);
             this.panelMyOrders.Controls.Add(this.buttonTrackBatch);
-            this.panelMyOrders.Location = new System.Drawing.Point(0, 120);
+            this.panelMyOrders.Location = new System.Drawing.Point(0, 145);
             this.panelMyOrders.Name = "panelMyOrders";
             this.panelMyOrders.Size = new System.Drawing.Size(250, 68);
             this.panelMyOrders.TabIndex = 0;
-            // 
-            // buttonTrackBatch
-            // 
-            this.buttonTrackBatch.FlatAppearance.BorderSize = 0;
-            this.buttonTrackBatch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonTrackBatch.ForeColor = System.Drawing.Color.Gainsboro;
-            this.buttonTrackBatch.Location = new System.Drawing.Point(0, 3);
-            this.buttonTrackBatch.Name = "buttonTrackBatch";
-            this.buttonTrackBatch.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.buttonTrackBatch.Size = new System.Drawing.Size(240, 30);
-            this.buttonTrackBatch.TabIndex = 3;
-            this.buttonTrackBatch.Text = "Localizar lote";
-            this.buttonTrackBatch.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonTrackBatch.UseVisualStyleBackColor = true;
-            this.buttonTrackBatch.Click += new System.EventHandler(this.buttonTrackBatch_Click);
             // 
             // buttonLocateProduct
             // 
@@ -178,6 +152,32 @@
             this.buttonLocateProduct.UseVisualStyleBackColor = true;
             this.buttonLocateProduct.Click += new System.EventHandler(this.buttonLocateProduct_Click);
             // 
+            // buttonTrackBatch
+            // 
+            this.buttonTrackBatch.FlatAppearance.BorderSize = 0;
+            this.buttonTrackBatch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonTrackBatch.ForeColor = System.Drawing.Color.Gainsboro;
+            this.buttonTrackBatch.Location = new System.Drawing.Point(0, 3);
+            this.buttonTrackBatch.Name = "buttonTrackBatch";
+            this.buttonTrackBatch.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.buttonTrackBatch.Size = new System.Drawing.Size(240, 30);
+            this.buttonTrackBatch.TabIndex = 3;
+            this.buttonTrackBatch.Text = "Localizar lote";
+            this.buttonTrackBatch.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonTrackBatch.UseVisualStyleBackColor = true;
+            this.buttonTrackBatch.Click += new System.EventHandler(this.buttonTrackBatch_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox1.Image = global::Aplicacion_Seguimiento.Properties.Resources.Zblanca__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(250, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -190,8 +190,8 @@
             this.Text = "Aplicacion Seguimiento";
             this.leftPanelContainer.ResumeLayout(false);
             this.settingsManagerPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelMyOrders.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
